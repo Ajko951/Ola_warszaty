@@ -21,7 +21,7 @@ async function handleSubmit(e) {
     <form action="#" @submit="handleSubmit">
         <label for="name" class="text-6xl font-light">Enter your name: &nbsp;</label>
         <input id="name" alt="Name" type="text" class="border-2 border-violet-600 rounded-lg"/>
-      <button type="submit">Click Me harder!!</button>
+        <button type="submit" class="bg-gradient-to-r from-violet-800 to-violet-950 rounded-lg p-6">Click Me HARDER!</button>
     </form>
     <section id="greeting">{{ greeting }}</section>
   </main>
