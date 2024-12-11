@@ -35,3 +35,6 @@ button[type="submit"] {
 #greeting:empty {
   display: none;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
